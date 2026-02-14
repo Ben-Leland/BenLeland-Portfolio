@@ -1,8 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Home/Home.js';
-import Navbar from '../components/Navbar/Navbar.js';
+import Home from './Home/Home.jsx';
+import Navbar from '../components/Navbar/Navbar.jsx';
+import './App.css';
 
+// TODO: find overall theme of website
 export default function App() {
     return (
         <div>
