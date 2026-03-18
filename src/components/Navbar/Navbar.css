@@ -7,3 +7,16 @@ nav.container {
     justify-content: space-between;
     align-items: center;
 }
+
+.navName {
+    font-size: 1.25rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.links a {
+    color: white;
+}
