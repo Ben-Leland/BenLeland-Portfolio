@@ -7,6 +7,7 @@ export default function Navbar() {
         <nav class="container">
             <p><strong>BEN LELAND</strong></p>
             <Link to='/'> Home</Link>
+            <Link to='/portfolio'> Portfolio</Link>
         </nav>
     )
 }
