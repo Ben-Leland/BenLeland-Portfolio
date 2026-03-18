@@ -4,7 +4,7 @@ import './Portfolio.css';
 
 export default function Portfolio() {
     return (
-        <div class="container">
+        <div>
             <h1>My Portfolio</h1>
             <p>Welcome to my portfolio!</p>
         </div>

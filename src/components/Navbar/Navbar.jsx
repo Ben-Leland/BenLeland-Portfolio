@@ -8,6 +8,7 @@ export default function Navbar() {
             <p><strong>BEN LELAND</strong></p>
             <Link to='/'> Home</Link>
             <Link to='/portfolio'> Portfolio</Link>
+            <Link to='/contact'> Contact</Link>
         </nav>
     )
 }
