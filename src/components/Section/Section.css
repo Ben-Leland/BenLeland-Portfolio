@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.container.section {
+    justify-content: space-between;
+}
+
+/* TODO: change padding to adjust as screen size changes */
+.section-left {
+    padding-left: 2rem;
+}
+
+.section-left .title {
+    font-weight: 800;
+}
+
+.section-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 60%;
+}
+
+.section-right p {
+    margin: 0;
+}
+
+.symbol {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.4rem;
+    color: red;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+}
+
+.body {
+    font-size: 1rem;
+    color: #D9DDDC;
+}
