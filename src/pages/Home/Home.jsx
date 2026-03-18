@@ -3,13 +3,19 @@ import './Home.css';
 
 export default function Home() {
     return (
-        <div>
-            <p>
-                Hi, my name is Ben Leland
-            </p>
-            <p>
-                Full-Stack Software Engineer
-            </p>
+        <div class="container">
+            <div>
+                <img src='/headshot.jpg' alt="Headshot" class="headshot"></img>
+            </div>
+            <div>
+                <strong><p class="name">
+                    BEN LELAND
+                </p>
+                <p class="title">
+                    FULL-STACK SOFTWARE ENGINEER
+                </p></strong>
+            </div>
+            
         </div>
     )
 }

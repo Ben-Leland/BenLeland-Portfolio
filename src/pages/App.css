@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
 body {
     color: white;
     background-color: #212121;
+    font-family: 'Wix Madefor Text', sans-serif;
 }

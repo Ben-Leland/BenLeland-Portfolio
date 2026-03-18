@@ -4,9 +4,9 @@ import './Navbar.css';
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav class="container">
+            <p><strong>BEN LELAND</strong></p>
             <Link to='/'> Home</Link>
-            <Link to='/about'> About</Link>
         </nav>
     )
 }
