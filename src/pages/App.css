@@ -5,3 +5,9 @@ body {
     background-color: #212121;
     font-family: 'Wix Madefor Text', sans-serif;
 }
+
+.symbol {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #00ff9d;
+}
