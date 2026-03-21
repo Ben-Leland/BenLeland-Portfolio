@@ -3,15 +3,17 @@ import './Section.css';
 
 export default function Section({title, subtitle, body}) {
     return (
-        <div className="container section">
-            <div className="section-left">
-                <p className="title">{title}</p>
+        <div className="container">
+            <div className="section-1">
+                <p className="section-title">{title}</p>
             </div>
 
-            <div className="section-right">
-                <p className="symbol">&lt;&gt;</p>
-                <p className="subtitle"><strong>{subtitle}</strong></p>
-                <p className="body">{body}</p>
+            <div className="section-2">
+                <div className='subtitle-group'>
+                    <p className="symbol">&lt;&gt;</p>
+                    <p className="section-subtitle"><strong>{subtitle}</strong></p>
+                </div>
+                <p className="section-body">{body}</p>
             </div>
         </div>
     )

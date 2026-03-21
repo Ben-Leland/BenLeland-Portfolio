@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import Section from '../../components/Section/Section.jsx';
 import aboutText from './Sections/about.js';
+import educationText from './Sections/education.js';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -30,7 +30,20 @@ export default function Home() {
 
             </div>
 
-            {/* <Section title="ABOUT" subtitle="Full-Stack Software Engineer" body={aboutText}/> */}
+            <div className='container home'>
+                <div className="section-1">
+                    <p className="section-title"> ABOUT </p>
+                </div>
+
+                <div className="section-2">
+                    <div className='subtitle-group'>
+                        <p className="symbol">&lt;&gt;</p>
+                        <p className="section-subtitle"><strong></strong></p>
+                    </div>
+                    <p className="section-body"></p>
+                </div>
+                <a href='https://www.linkedin.com/in/ben-leland/' target='_blank' rel='noreferrer' className='link-container resume section-linkedin'> LINKEDIN &nbsp;&nbsp; 🡥</a>
+            </div>
         </div>
     )
 }
