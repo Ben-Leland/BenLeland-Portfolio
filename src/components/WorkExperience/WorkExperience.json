@@ -1,0 +1,24 @@
+[
+    {
+        "start": "June 2025",
+        "end": "September 2025",
+        "title": "SDE Intern",
+        "company": "Amazon",
+        "bullets": [
+            "Designed and implemented a targeted notification campaign based on customer usage patterns for the Shop With Points team",
+            "Integrated internal APIs and contributed new logic to existing production systems",
+            "Developed a decision-making algorithm to optimize customer experience for the campaign",
+            "Built an end-to-end ETL data pipeline to support a real-time dashboard for campaign performance and monitoring"
+        ]
+    },
+    {
+        "start": "July 2024",
+        "end": "May 2025",
+        "title": "IT Operations Intern",
+        "company": "USAble Life",
+        "bullets": [
+            "Managed internal employee transfers, hires, and terminations company-wide using onboard ITSM tools",
+            "Optimized automated workflows to better align with company and individual needs, employing low-code solutions"
+        ]
+    }
+]
