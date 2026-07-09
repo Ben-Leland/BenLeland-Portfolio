@@ -2,23 +2,23 @@
     {
         "start": "June 2025",
         "end": "September 2025",
-        "title": "SDE Intern",
+        "title": "Software Development Engineer Intern",
         "company": "Amazon",
         "bullets": [
-            "Designed and implemented a targeted notification campaign based on customer usage patterns for the Shop With Points team",
-            "Integrated internal APIs and contributed new logic to existing production systems",
-            "Developed a decision-making algorithm to optimize customer experience for the campaign",
-            "Built an end-to-end ETL data pipeline to support a real-time dashboard for campaign performance and monitoring"
+            "Designed and launched a targeted notification campaign for the “Shop With Points” team by analyzing customer usage patterns, increasing customer engagement across all 20 million program members.",
+            "Integrated internal APIs and developed a decision-making algorithm, enabling real-time analysis of customer usage trends and reducing irrelevant program notifications for 30% of users.",
+            "Built an end-to-end ETL pipeline feeding a real-time performance dashboard, enabling the team to monitor campaign health and make data-driven decisions 2x faster than manual reporting.",
+            "Drove a 25-point improvement in code coverage (70% → 95%) by refactoring the existing test suite, improving production code confidence and reducing technical debt."
         ]
     },
     {
         "start": "July 2024",
         "end": "May 2025",
-        "title": "IT Operations Intern",
+        "title": "Information Technology Operations Intern",
         "company": "USAble Life",
         "bullets": [
-            "Managed internal employee transfers, hires, and terminations company-wide using onboard ITSM tools",
-            "Optimized automated workflows to better align with company and individual needs, employing low-code solutions"
+            "Managed 100+ employee lifecycle transactions (transfers, hires, terminations) company-wide using ITSM tools, ensuring seamless HR operations.",
+            "Redesigned and optimized 3 automated workflows using low-code solutions, improving alignment with business needs and saving an estimated 2 hours of work per week."
         ]
     }
 ]

@@ -1,0 +1,15 @@
+.education {
+    color: #d3d3d3;
+    margin-top: 2rem;
+}
+
+.education p {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.education-degree {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+}
