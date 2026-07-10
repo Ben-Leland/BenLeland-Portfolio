@@ -99,7 +99,7 @@ nav.container {
     display: none;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 768px) {
     .nav-get-in-touch {
         display: block;
         text-decoration: none;
@@ -107,12 +107,13 @@ nav.container {
         font-size: 1rem;
         margin-left: 2rem;
         border: white solid 1px;
+        border-radius: 10px;
         padding: .5rem;
         background: #2e2e2e;
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
     .hamburger {
         display: none;
     }
@@ -128,5 +129,9 @@ nav.container {
         font-size: 1.25rem;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    .nav-get-in-touch {
+        border-radius: 0;
     }
 }
