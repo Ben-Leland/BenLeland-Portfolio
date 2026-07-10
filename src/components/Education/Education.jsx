@@ -1,5 +1,5 @@
-import React from 'react';
-import './Education.css';
+import React from "react";
+import "./Education.css";
 
 export default function Education({ degree, university, location, progress, date }) {
     return (

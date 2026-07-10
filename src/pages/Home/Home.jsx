@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 import WorkExperience from "../../components/WorkExperience/WorkExperience.jsx";
 import jobs from "../../components/WorkExperience/WorkExperience.json"
 import Education from "../../components/Education/Education.jsx";

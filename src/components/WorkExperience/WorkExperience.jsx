@@ -1,5 +1,5 @@
-import React from 'react';
-import './WorkExperience.css';
+import React from "react";
+import "./WorkExperience.css";
 
 export default function WorkExperience({ start, end, title, company, bullets }) {
     return (
