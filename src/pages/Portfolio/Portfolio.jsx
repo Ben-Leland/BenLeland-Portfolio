@@ -4,9 +4,9 @@ import './Portfolio.css';
 
 export default function Portfolio() {
     return (
-        <div>
-            <h1>My Portfolio</h1>
-            <p>Welcome to my portfolio!</p>
+        <div className="portfolio">
+            <p className="portfolio-title">Portfolio coming soon!</p>
+            <p className="portfolio-info">Please come back for future updates</p>
         </div>
     )
 }
