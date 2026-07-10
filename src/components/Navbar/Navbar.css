@@ -104,11 +104,11 @@ nav.container {
         display: block;
         text-decoration: none;
         color: white;
-        font-size: 1rem;
+        font-size: .75rem;
         margin-left: 2rem;
         border: white solid 1px;
         border-radius: 10px;
-        padding: .5rem;
+        padding: .75rem;
         background: #2e2e2e;
     }
 }

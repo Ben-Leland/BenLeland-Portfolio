@@ -36,7 +36,7 @@
 
 .link-container {
     background-color: #00ff9d;
-    width: 90%;
+    width: 70%;
     margin: 1rem;
     padding: 0.6rem;
     border-radius: 10px;
@@ -99,6 +99,10 @@
     color: #d3d3d3;
 }
 
+.section-body li {
+    margin-bottom: 0.5rem;
+}
+
 .section-linkedin {
     text-align: center;
     text-decoration: none;
@@ -107,6 +111,31 @@
     margin-bottom: 10px;
 }
 
-@media (min-width: 769px) {
+li::marker {
+    color: #00ff9d;
+}
+
+@media (min-width: 768px) {
+    .headshot {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .section-body {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container.home {
+        flex-direction: row;
+    }
     
+    .link-container {
+        border-radius: 0;
+    }
+
+    .home-link-container {
+        display: flex;
+    }
 }
