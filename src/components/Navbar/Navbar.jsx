@@ -8,9 +8,12 @@ export default function Navbar() {
     return (
         <nav className="container">
             <div className="brand">
-                <p className="symbol">&lt;&gt;</p>
-                <p className="navName"><strong>BEN LELAND</strong></p>
-                <Link to="/contact" className="nav-get-in-touch">GET IN TOUCH &nbsp;&nbsp; 🡥</Link>
+                <Link to="/" className="nav-link-home">
+                    <p className="symbol">&lt;&gt;</p>
+                    <p className="navName"><strong>BEN LELAND</strong></p>
+                </Link>
+                
+                <Link to="/contact" className="link-button nav-get-in-touch">GET IN TOUCH &nbsp;&nbsp; 🡥</Link>
             </div>
 
             <button

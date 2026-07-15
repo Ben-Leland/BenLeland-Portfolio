@@ -23,6 +23,7 @@ nav.container {
 
 .navName {
     font-size: 1.25rem;
+    white-space: nowrap;
 }
 
 .hamburger {
@@ -99,17 +100,22 @@ nav.container {
     display: none;
 }
 
+.nav-link-home {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-home .navName {
+    color: white;
+}
+
 @media (min-width: 768px) {
     .nav-get-in-touch {
         display: block;
-        text-decoration: none;
-        color: white;
-        font-size: .75rem;
-        margin-left: 2rem;
-        border: white solid 1px;
-        border-radius: 10px;
-        padding: .75rem;
-        background: #2e2e2e;
+        margin-top: 0;
+        margin-left: 1rem;
+        width: auto;
     }
 }
 
@@ -129,9 +135,5 @@ nav.container {
         font-size: 1.25rem;
         margin-left: 1rem;
         margin-right: 1rem;
-    }
-
-    .nav-get-in-touch {
-        border-radius: 0;
     }
 }
