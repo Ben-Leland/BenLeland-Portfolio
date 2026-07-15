@@ -33,9 +33,9 @@ export default function Home() {
                         <p className="section-subtitle">Full-Stack Software Engineer</p>
                     </div>
                     <p className="section-body">Hi, my name is Ben Leland! I’m a recent graduate from the University of Washington where I studied Informatics, with a focus in Data Science and Software Engineering. I’m actively pursuing software engineering roles and am eager to deepen my skills through hands-on work and mentorship opportunities.</p>
+                    <a href="https://www.linkedin.com/in/ben-leland/" target="_blank" rel="noreferrer" className="link-button"> LINKEDIN &nbsp;&nbsp; 🡥</a>
                 </div>
 
-                <a href="https://www.linkedin.com/in/ben-leland/" target="_blank" rel="noreferrer" className="link-button"> LINKEDIN &nbsp;&nbsp; 🡥</a>
             </div>
 
             <div className="container home">
@@ -66,16 +66,18 @@ export default function Home() {
                     <p className="section-title"> WORK EXPERIENCE </p>
                     
                 </div>
-
-                {jobs.map((job) => (
-                    <WorkExperience
-                        start={job.start}
-                        end={job.end}
-                        title={job.title}
-                        company={job.company}
-                        bullets={job.bullets}
-                    ></WorkExperience>
-                ))}
+                <div className="section-2">
+                    {jobs.map((job) => (
+                        <WorkExperience
+                            start={job.start}
+                            end={job.end}
+                            title={job.title}
+                            company={job.company}
+                            bullets={job.bullets}
+                        ></WorkExperience>
+                    ))}
+                </div>
+                
             </div>
 
             <div className="container home">

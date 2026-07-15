@@ -143,6 +143,17 @@ li::marker {
 @media (min-width: 1024px) {
     .container.home {
         flex-direction: row;
+        justify-content: left;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    .container.home p {
+        text-align: left;
+    }
+
+    .container.home ul {
+        text-align: left;
     }
     
     .link-container {
@@ -151,5 +162,30 @@ li::marker {
 
     .home-link-container {
         display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .link-button {
+        width: auto;
+        border-radius: 0;
+    }
+
+    .home-container-laptop {
+        margin-left: 3rem;
+    }
+
+    .name {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .section-2 {
+        align-items: flex-start;
     }
 }

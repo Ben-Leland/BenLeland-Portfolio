@@ -20,3 +20,9 @@
     color: white;
     font-weight: bold;
 }
+
+@media (min-width: 1024px) {
+    .work-experience {
+        align-items: flex-start;
+    }
+}
