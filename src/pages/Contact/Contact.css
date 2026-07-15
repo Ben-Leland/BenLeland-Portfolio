@@ -24,15 +24,6 @@
     color: #d3d3d3;
 }
 
-.contact-button {
-    color: white;
-    border: white solid 1px;
-    text-decoration: none;
-    padding: .5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-size: 1.25rem;
-    border-radius: 15px;
-    background-color: #2e2e2e;
-    margin-bottom: 1rem;
+.contact-link-button {
+    width: auto;
 }

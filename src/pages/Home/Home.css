@@ -134,6 +134,10 @@ li::marker {
     .section-body {
         width: 85%;
     }
+
+    .link-button {
+        width: 50vw;
+    }
 }
 
 @media (min-width: 1024px) {
