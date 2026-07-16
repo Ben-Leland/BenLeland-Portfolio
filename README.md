@@ -1,3 +1,10 @@
-# Personal Website
+# Ben Leland — Full-Stack Software Engineer
 
-This is the personal website for Ben Leland. It will be used to put on a resume and incorporate his portfolio
+Portfolio website built with React.
+
+🔗 [benleland.portfolio]([https://benleland.dev](https://ben-leland.github.io/Ben-Leland/))
+
+## Tech Stack
+- React
+- React Router
+- CSS
