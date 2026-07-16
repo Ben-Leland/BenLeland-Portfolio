@@ -10,14 +10,14 @@ export default function Home() {
     return (
         <div>
             <div className="container home">
-                <img src="/headshot.jpg" alt="Headshot" className="headshot"></img>
+                <img src="headshot.jpg" alt="Headshot" className="headshot"></img>
 
                 <div className="home-container-laptop">
                     <p className="name">BEN LELAND</p>
                     <p className="title">FULL-STACK SOFTWARE ENGINEER</p>
                     <div className="home-link-container">
                         <Link to="/contact" className="link-button get-in-touch"> GET IN TOUCH &nbsp;&nbsp; 🡥</Link>
-                        <a href="/Ben Leland - Resume.pdf" download className="link-button"> DOWNLOAD RESUME &nbsp;&nbsp; {"\u2B73"}</a>
+                        <a href="Ben Leland - Resume.pdf" download className="link-button"> DOWNLOAD RESUME &nbsp;&nbsp; {"\u2B73"}</a>
                     </div>
                 </div>
             </div>
