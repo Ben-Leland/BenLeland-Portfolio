@@ -56,7 +56,7 @@
 }
 
 .get-in-touch {
-    border: none;
+    border: solid #00ff9d 1px;
     background-color: #00ff9d;
     color: black;
 }
@@ -171,6 +171,18 @@ li::marker {
     .link-button {
         width: auto;
         border-radius: 0;
+    }
+
+    .link-button:hover {
+        background-color: #00ff9d;
+        color: black;
+        border: solid #00ff9d 1px;
+    }
+
+    .get-in-touch:hover {
+        background-color: #2e2e2e;
+        color: white;
+        border: solid white 1px;
     }
 
     .home-container-laptop {
