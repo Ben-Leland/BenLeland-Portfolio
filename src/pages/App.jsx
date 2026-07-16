@@ -10,7 +10,7 @@ import "./App.css";
 export default function App() {
     return (
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename="/BenLeland-Portfolio">
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
