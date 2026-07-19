@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -8,12 +8,12 @@ export default function Navbar() {
     return (
         <nav className="container">
             <div className="brand">
-                <Link to="/" className="nav-link-home">
+                <NavLink to="/" className="nav-link-home">
                     <p className="symbol">&lt;&gt;</p>
                     <p className="navName"><strong>BEN LELAND</strong></p>
-                </Link>
-                
-                <Link to="/contact" className="link-button nav-get-in-touch">GET IN TOUCH &nbsp;&nbsp; 🡥</Link>
+                </NavLink>
+
+                <NavLink to="/contact" className="link-button nav-get-in-touch">GET IN TOUCH &nbsp;&nbsp; 🡥</NavLink>
             </div>
 
             <button
@@ -29,15 +29,15 @@ export default function Navbar() {
             </button>
 
             <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
-                <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
-                <Link to="/portfolio" onClick={() => setIsOpen(false)}>Portfolio</Link>
-                <Link to="/contact" onClick={() => setIsOpen(false)}>Contact Me</Link>
+                <NavLink to="/" onClick={() => setIsOpen(false)}>Home</NavLink>
+                <NavLink to="/portfolio" onClick={() => setIsOpen(false)}>Portfolio</NavLink>
+                <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact Me</NavLink>
             </div>
 
             <div className="desktop-menu">
-                <Link to="/" className="nav-link">Home</Link>
-                <Link to="/portfolio" className="nav-link">Portfolio</Link>
-                <Link to="/contact" className="nav-link">Contact Me</Link>
+                <NavLink to="/" className="nav-link">Home</NavLink>
+                <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
+                <NavLink to="/contact" className="nav-link">Contact Me</NavLink>
             </div>
 
             <div className={`overlay ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(false)}></div>
