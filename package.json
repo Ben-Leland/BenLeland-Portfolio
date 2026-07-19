@@ -1,5 +1,5 @@
 {
-  "name": "benleland-softwaredeveloper",
+  "name": "benleland",
   "version": "1.0.0",
   "description": "This is the personal website for Ben Leland. It will be used to put on a resume and incorporate his portfolio",
   "main": "index.js",
@@ -22,6 +22,7 @@
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-react": "^7.27.1",
     "babel-loader": "^10.0.0",
+    "baseline-browser-mapping": "^2.10.43",
     "copy-webpack-plugin": "^14.0.0",
     "css-loader": "^7.1.2",
     "gh-pages": "^6.3.0",
@@ -32,5 +33,5 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
   },
-  "homepage": "https://ben-leland.github.io/BenLeland-Portfolio/"
+  "homepage": "https://ben-leland.github.io/benleland/"
 }
