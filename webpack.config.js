@@ -6,7 +6,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, '/dist'),
         filename: 'bundle.js',
-        publicPath: '/benleland/'
+        publicPath: process.env.NODE_ENV === 'production' ? '/benleland/' : '/'
     },
 
     module: {
@@ -32,7 +32,11 @@ module.exports = {
     },
 
     devServer: {
-        historyApiFallback: true
+        static: {
+            directory: path.join(__dirname, 'dist')
+        },
+        historyApiFallback: true,
+        hot: true
     },
 
     resolve: {
