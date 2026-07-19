@@ -2,22 +2,24 @@ import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import WorkExperience from "../../components/WorkExperience/WorkExperience.jsx";
-import jobs from "../../components/WorkExperience/WorkExperience.json"
+import jobs from "../../components/WorkExperience/WorkExperience.json";
 import Education from "../../components/Education/Education.jsx";
-import education from "../../components/Education/Education.json"
+import education from "../../components/Education/Education.json";
+import headshot from "../../../assets/headshot.jpg";
+import resume from "../../../assets/resume.pdf";
 
 export default function Home() {
     return (
         <div>
             <div className="container home">
-                <img src="headshot.jpg" alt="Headshot" className="headshot"></img>
+                <img src={headshot} alt="Headshot" className="headshot"></img>
 
                 <div className="home-container-laptop">
                     <p className="name">BEN LELAND</p>
                     <p className="title">FULL-STACK SOFTWARE ENGINEER</p>
                     <div className="home-link-container">
                         <Link to="/contact" className="link-button get-in-touch"> GET IN TOUCH &nbsp;&nbsp; 🡥</Link>
-                        <a href="resume.pdf" download className="link-button"> DOWNLOAD RESUME &nbsp;&nbsp; {"\u2B73"}</a>
+                        <a href={resume} download className="link-button"> DOWNLOAD RESUME &nbsp;&nbsp; {"\u2B73"}</a>
                     </div>
                 </div>
             </div>

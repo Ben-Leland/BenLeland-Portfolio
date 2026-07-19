@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     entry: './src/index.jsx',
@@ -24,6 +23,10 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(png|jpe?g|gif|svg|pdf)$/i,
+                type: "asset/resource"
             }
         ]
     },
@@ -47,14 +50,6 @@ module.exports = {
         // webpack bundles in the body using script tags.
         new HtmlWebpackPlugin({
             template: './src/index.html'
-        }),
-        new CopyWebpackPlugin({
-            patterns: [
-            {
-                from: path.resolve(__dirname, "assets"),
-                to: path.resolve(__dirname, "dist")
-            }
-            ]
         })
     ]
 }
